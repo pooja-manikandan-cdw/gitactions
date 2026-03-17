@@ -1,6 +1,9 @@
 name: Variables
 on: 
   workflow_dispatch:
+  push:
+    branches:
+      - develop
 env:
   DEVOPS_HORIZON: ${{ secrets.DEVOPS_HORIZON }}
 jobs:
