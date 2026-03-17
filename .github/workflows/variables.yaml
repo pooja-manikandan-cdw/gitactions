@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print DEVOPS_HORIZON variable
-        run: echo "The value of DEVOPS_HORIZON is:" $DEVOPS_HORIZON"
+        run: echo "The value of DEVOPS_HORIZON is:" $DEVOPS_HORIZON
