@@ -1,0 +1,14 @@
+name: Hello World Develop
+on: 
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World Action
+        run: echo "Hello, World! ONLY FOR DEVELOP BRANCH!"
