@@ -4,7 +4,7 @@ on:
 env:
   DEVOPS_HORIZON: ${{ secrets.DEVOPS_HORIZON }}
 jobs:
-  print-variables:
+  print-variable:
     runs-on: ubuntu-latest
     steps:
       - name: Print DEVOPS_HORIZON variable
