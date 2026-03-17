@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World Action
-        run: echo "Hello, World!"
+        run: echo "Hello, World! ONLY FOR DEVELOP BRANCH!"
